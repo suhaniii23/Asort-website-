@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Asort Hiring</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 0;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Text */
+h2 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Button */
+.btn {
+    display: inline-block;
+    padding: 12px 18px;
+    background: #2575fc;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #6a11cb;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #222;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+    header h1 {
+        font-size: 34px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Laptop */
+@media (min-width: 900px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    header h1 {
+        font-size: 40px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Asort Co-Commerce Company</h1>
+    <p>Hiring Freshers | Build Your Career</p>
+</header>
+
+<div class="container">
+
+    <div class="grid">
+
+        <div class="card">
+            <h2>About Company</h2>
+            <p>Asort is a platform where you can learn, earn, and grow your career with training and support.</p>
+        </div>
+
+        <div class="card">
+            <h2>Job Details</h2>
+            <ul>
+                <li>Work from Office</li>
+                <li>5 Days Training</li>
+                <li>Relaxing Environment</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Facilities</h2>
+            <ul>
+                <li>Free Stay</li>
+                <li>1 Time Lunch</li>
+                <li>No Pressure</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Why Join?</h2>
+            <ul>
+                <li>Earn Money</li>
+                <li>Career Growth</li>
+                <li>Skill Development</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>Apply Now</h2>
+            <p>Limited Seats Available</p>
+            <p><strong>📞 7020869429</strong></p>
+            <a href="tel:7020869429" class="btn">Call Now</a>
+        </div>
+
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2026 Asort Company</p>
+</footer>
+
+</body>
+  </html>
